@@ -2,30 +2,51 @@
   "name": "grunt-bower-browser",
   "version": "0.0.1",
   "description": "Browser-based GUI manager of Bower",
-  "homepage": "https://github.com/rakuten-frontend/grunt-bower-browser",
-  "repository": "https://github.com/rakuten-frontend/grunt-bower-browser.git",
   "author": {
-    "name": "Rakuten, Inc.",
-    "email": "",
-    "url": ""
+    "name": "Rakuten, Inc."
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rakuten-frontend/grunt-bower-browser/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rakuten-frontend/grunt-bower-browser.git"
+  },
+  "homepage": "https://github.com/rakuten-frontend/grunt-bower-browser",
+  "bugs": {
+    "url": "https://github.com/rakuten-frontend/grunt-bower-browser/issues"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "bower",
+    "gui",
+    "server"
   ],
-  "main": "Gruntfile.js",
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-nodeunit": "~0.3.0",
-    "grunt": "^0.4.0",
-    "jshint-stylish": "~0.1.5",
-    "load-grunt-tasks": "~0.3.0"
-  },
   "scripts": {
     "test": "grunt test"
+  },
+  "main": "Gruntfile.js",
+  "files": [
+    "tasks",
+    "LICENSE"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^2.0.0"
   }
 }
