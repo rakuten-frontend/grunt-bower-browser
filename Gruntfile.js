@@ -23,7 +23,13 @@ module.exports = function (grunt) {
     // Configuration to be run (and then tested).
     'bower-browser': {
       options: {
+        open: false
       },
+      custom: {
+        options: {
+          port: 3011
+        }
+      }
     },
 
     // Unit tests.
