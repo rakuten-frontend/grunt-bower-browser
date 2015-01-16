@@ -1,0 +1,31 @@
+{
+  "name": "grunt-bower-browser",
+  "version": "0.0.1",
+  "description": "Browser-based GUI manager of Bower",
+  "homepage": "https://github.com/rakuten-frontend/grunt-bower-browser",
+  "repository": "https://github.com/rakuten-frontend/grunt-bower-browser.git",
+  "author": {
+    "name": "Rakuten, Inc.",
+    "email": "",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "^0.4.0",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
