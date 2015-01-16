@@ -1,4 +1,4 @@
-# grunt-bower-browser
+# grunt-bower-browser  [![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][deps-image]][deps-url]
 
 > Browser-based GUI manager of Bower
 
@@ -29,14 +29,22 @@ grunt.initConfig({
   'bower-browser': {
     server: {
       options: {
-        path: 'path/to/project',
-        port: 8080,
-        cache: 0,
-        open: false
+        path: 'path/to/target',  // Location of bower.json. default: project root
+        port: 8080,              // Port number. default: 3010
+        cache: 0,                // Cache TTL. Set 0 to force to fetch API. default: 86400 (24hrs)
+        open: false              // Prevent opening browser. default: true (open automatically)
       }
     }
   }
 });
 ```
+
 ## License
 Copyright (c) 2015 Rakuten, Inc. Licensed under the [MIT license](LICENSE).
+
+[npm-image]: https://img.shields.io/npm/v/grunt-bower-browser.svg?style=flat
+[npm-url]: https://www.npmjs.org/package/grunt-bower-browser
+[travis-image]: https://img.shields.io/travis/rakuten-frontend/grunt-bower-browser/master.svg?style=flat
+[travis-url]: https://travis-ci.org/rakuten-frontend/grunt-bower-browser
+[deps-image]: http://img.shields.io/david/rakuten-frontend/grunt-bower-browser.svg?style=flat
+[deps-url]: https://david-dm.org/rakuten-frontend/grunt-bower-browser
