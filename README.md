@@ -27,11 +27,13 @@ In your project's Gruntfile, add a section named `bower-browser` to the data obj
 ```js
 grunt.initConfig({
   'bower-browser': {
-    options: {
-      path: 'path/to/project',
-      port: 8080,
-      cache: 0,
-      open: false
+    server: {
+      options: {
+        path: 'path/to/project',
+        port: 8080,
+        cache: 0,
+        open: false
+      }
     }
   }
 });
