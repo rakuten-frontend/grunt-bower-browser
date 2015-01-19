@@ -43,7 +43,7 @@ grunt.initConfig({
 Copyright (c) 2015 Rakuten, Inc. Licensed under the [MIT license](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/grunt-bower-browser.svg?style=flat
-[npm-url]: https://www.npmjs.org/package/grunt-bower-browser
+[npm-url]: https://www.npmjs.com/package/grunt-bower-browser
 [travis-image]: https://img.shields.io/travis/rakuten-frontend/grunt-bower-browser/master.svg?style=flat
 [travis-url]: https://travis-ci.org/rakuten-frontend/grunt-bower-browser
 [deps-image]: http://img.shields.io/david/rakuten-frontend/grunt-bower-browser.svg?style=flat
