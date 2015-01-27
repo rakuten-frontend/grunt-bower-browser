@@ -1,4 +1,12 @@
+/* jshint mocha: true */
 'use strict';
 
-exports['bower-browser'] = {
-};
+var assert = require('assert');
+
+describe('bower-browser', function () {
+
+  it('passes a dummy test', function () {
+    assert(true);
+  });
+
+});

@@ -12,7 +12,7 @@ module.exports = function (grunt) {
       all: [
         'Gruntfile.js',
         'tasks/*.js',
-        '<%= nodeunit.tests %>'
+        'test/*.js'
       ],
       options: {
         jshintrc: '.jshintrc',
@@ -34,7 +34,10 @@ module.exports = function (grunt) {
     },
 
     // Unit tests.
-    nodeunit: {
+    mochaTest: {
+      options: {
+        reporter: 'spec'
+      },
       tests: ['test/*-test.js']
     }
 
@@ -45,8 +48,7 @@ module.exports = function (grunt) {
 
   // Whenever the "test" task is run,
   // first run this plugin's task(s), then test the result.
-  // grunt.registerTask('test', ['jshint', bower-browser', 'nodeunit']);
-  grunt.registerTask('test', ['jshint']);
+  grunt.registerTask('test', ['jshint', 'bower-browser', 'mochaTest']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['test']);
