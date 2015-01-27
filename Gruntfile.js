@@ -27,7 +27,8 @@ module.exports = function (grunt) {
       },
       custom: {
         options: {
-          port: 3011
+          port: 3011,
+          keepalive: false
         }
       }
     },

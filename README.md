@@ -24,6 +24,13 @@ grunt.loadNpmTasks('grunt-bower-browser');
 
 ### Options
 See the [API specification](https://github.com/rakuten-frontend/bower-browser#api) of bower-browser.
+Options except for `keepalive` follow the spec.
+
+#### keepalive
+Type: 'Boolean'  
+Default: `true`
+
+Set `false` to proceed to next task after the server is started.
 
 ### Example config
 In your project's Gruntfile, add a section named `bower-browser` to the data object passed into `grunt.initConfig()`.
