@@ -1,0 +1,10 @@
+v0.1.0:
+  date: 2015-01-27
+  changes:
+    - Bump bower-browser to v0.2.0.
+    - Support `keepalive` option.
+    - Test with Mocha.
+v0.0.1:
+  date: 2015-01-16
+  changes:
+    - Initial release.
