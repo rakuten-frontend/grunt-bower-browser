@@ -25,8 +25,9 @@ module.exports = function (grunt) {
       options: {
         open: false
       },
-      custom: {
+      server: {
         options: {
+          path: 'test/fixtures',
           port: 3011,
           keepalive: false
         }
