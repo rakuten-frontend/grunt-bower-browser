@@ -1,10 +1,14 @@
 # grunt-bower-browser
 
-> Browser-based GUI manager of Bower
+> Run browser-based GUI manager of Bower
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][deps-image]][deps-url]
+
+This is a Grunt interface of [bower-browser](https://github.com/rakuten-frontend/bower-browser).  
+The original bower-browser has own CLI and API.
+Please refer the [documentation](https://github.com/rakuten-frontend/bower-browser#readme) for details.
 
 ## Getting Started
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins.
