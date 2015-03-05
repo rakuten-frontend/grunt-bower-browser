@@ -37,10 +37,10 @@
     "LICENSE"
   ],
   "dependencies": {
-    "bower-browser": "^0.3.0"
+    "bower-browser": "^0.4.0"
   },
   "peerDependencies": {
-    "grunt": "^0.4.0"
+    "grunt": ">=0.4.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
