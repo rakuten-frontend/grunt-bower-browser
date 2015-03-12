@@ -1,6 +1,6 @@
 {
   "name": "grunt-bower-browser",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Run browser-based GUI manager of Bower",
   "author": {
     "name": "Rakuten, Inc."
