@@ -26,11 +26,8 @@
   "scripts": {
     "test": "grunt test"
   },
-  "main": "Gruntfile.js",
   "files": [
-    "tasks",
-    "LICENSE",
-    "CHANGELOG.md"
+    "tasks"
   ],
   "dependencies": {
     "bower-browser": "^0.6.0"
