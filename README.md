@@ -55,7 +55,8 @@ grunt.initConfig({
 ```
 
 ## License
-Copyright (c) 2015 Rakuten, Inc. Licensed under the [MIT license](LICENSE).
+Copyright (c) 2015-2016 Rakuten, Inc.
+Licensed under the [MIT license](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/grunt-bower-browser.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/grunt-bower-browser
