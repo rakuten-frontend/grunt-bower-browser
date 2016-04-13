@@ -1,8 +1,8 @@
 # grunt-bower-browser
 
-> Run browser-based GUI manager of Bower
+> Run browser-based GUI manager of Bower.
 
-[![NPM Version][npm-image]][npm-url]
+[![npm Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][deps-image]][deps-url]
 
@@ -10,15 +10,15 @@ This is a Grunt interface of [bower-browser](https://github.com/rakuten-frontend
 The original bower-browser has own CLI and API.
 Please refer the [documentation](https://github.com/rakuten-frontend/bower-browser#readme) for details.
 
-## Getting Started
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins.
-Once you're familiar with that process, you may install this plugin with this command:
+## Getting started
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting started](http://gruntjs.com/getting-started) guide.  
+Install this plugin with this command:
 
-```shell
+```sh
 $ npm install grunt-bower-browser --save-dev
 ```
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+Once the plugin has been installed, it may be enabled inside your "Gruntfile.js" with this line of JavaScript:
 
 ```js
 grunt.loadNpmTasks('grunt-bower-browser');
@@ -36,7 +36,7 @@ Default: `true`
 
 Set `false` to proceed to next task after the server is started.
 
-### Example config
+### Example
 In your project's Gruntfile, add a section named `bower-browser` to the data object passed into `grunt.initConfig()`.
 
 ```js

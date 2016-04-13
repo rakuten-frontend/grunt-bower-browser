@@ -1,10 +1,8 @@
 'use strict';
 
 module.exports = function (grunt) {
-  // Load all npm grunt tasks.
   require('load-grunt-tasks')(grunt);
 
-  // Project configuration.
   grunt.initConfig({
     // ESLint
     eslint: {
@@ -15,7 +13,7 @@ module.exports = function (grunt) {
       ]
     },
 
-    // Configuration to be run (and then tested).
+    // "bower-browser" task for tests
     'bower-browser': {
       options: {
         open: false
@@ -29,7 +27,7 @@ module.exports = function (grunt) {
       }
     },
 
-    // Unit tests.
+    // Unit tests
     mochaTest: {
       options: {
         reporter: 'spec'
@@ -38,7 +36,6 @@ module.exports = function (grunt) {
     }
   });
 
-  // Actually load this plugin's task(s).
   grunt.loadTasks('tasks');
 
   // Whenever the "test" task is run,
