@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.0 (2016-04-13)
+- Support Grunt v1.0.
+
 ## 0.5.0 (2015-03-23)
 - Bump bower-browser to v0.6.0.
 
