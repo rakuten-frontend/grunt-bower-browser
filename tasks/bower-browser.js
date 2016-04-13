@@ -3,7 +3,6 @@
 var bowerBrowser = require('bower-browser');
 
 module.exports = function (grunt) {
-
   grunt.registerMultiTask('bower-browser', 'Run browser-based GUI manager of Bower ', function () {
     var options = this.options({
       keepalive: true
@@ -16,5 +15,4 @@ module.exports = function (grunt) {
       });
     }
   });
-
 };

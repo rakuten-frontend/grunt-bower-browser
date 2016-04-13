@@ -1,23 +1,18 @@
 'use strict';
 
 module.exports = function (grunt) {
-
   // Load all npm grunt tasks.
   require('load-grunt-tasks')(grunt);
 
   // Project configuration.
   grunt.initConfig({
-
-    jshint: {
+    // ESLint
+    eslint: {
       all: [
         'Gruntfile.js',
         'tasks/*.js',
         'test/*.js'
-      ],
-      options: {
-        jshintrc: '.jshintrc',
-        reporter: require('jshint-stylish')
-      }
+      ]
     },
 
     // Configuration to be run (and then tested).
@@ -41,7 +36,6 @@ module.exports = function (grunt) {
       },
       tests: ['test/*-test.js']
     }
-
   });
 
   // Actually load this plugin's task(s).
@@ -49,9 +43,8 @@ module.exports = function (grunt) {
 
   // Whenever the "test" task is run,
   // first run this plugin's task(s), then test the result.
-  grunt.registerTask('test', ['jshint', 'bower-browser', 'mochaTest']);
+  grunt.registerTask('test', ['eslint', 'bower-browser', 'mochaTest']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['test']);
-
 };
